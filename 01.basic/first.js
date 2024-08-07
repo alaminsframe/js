@@ -6,5 +6,12 @@ let last = '24445'
 hello = 'hello'
 last = 'last'
 
-console.table([hello, first, last])
-console.log(typeof(last))
+//console.table([hello, first, last])
+
+let change = Number(last)
+
+//console.log(change)
+//console.log(typeof(change))
+
+let bool = ' '
+console.log(Boolean(bool))
