@@ -13,5 +13,19 @@ let change = Number(last)
 //console.log(change)
 //console.log(typeof(change))
 
-let bool = ' '
-console.log(Boolean(bool))
+// let bool = ' '
+// console.log(Boolean(bool))
+
+
+
+// console.log(undefined == 0)
+// console.log(undefined >= 0)
+// console.log(undefined <= 0)
+// console.log(undefined != 0)
+
+console.log(null == 0)
+console.log(null > 0)
+console.log(null >= 0)
+console.log(null < 0)
+console.log(null <= 0)
+console.log(null != 0)
