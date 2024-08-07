@@ -7,3 +7,4 @@ hello = 'hello'
 last = 'last'
 
 console.table([hello, first, last])
+console.log(typeof(last))
