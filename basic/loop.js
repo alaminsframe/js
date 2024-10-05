@@ -52,3 +52,15 @@
 //     console.log(x)
 //     x+=2
 // }while(x<=20)
+
+
+const user = {
+    hello1: "hello one",
+    hello2: "hello two",
+    hello3: "hello three",
+    
+}
+for(key in user){
+
+    console.log(user[key])
+}
