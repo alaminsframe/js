@@ -55,14 +55,14 @@
 // console.log([1,2,...arr1,...arr2,100,200])
 
 
-let obj1 = {
-    fname:'hello',
-    lname:'hi'
-}
-let obj2 = {
-    age:20
-}
-console.log({...obj1,...obj2})
+// let obj1 = {
+//     fname:'hello',
+//     lname:'hi'
+// }
+// let obj2 = {
+//     age:20
+// }
+// console.log({...obj1,...obj2})
 
 
 // function sum(fname,lname, ...nums){
@@ -76,3 +76,19 @@ console.log({...obj1,...obj2})
 // }
 //  let a = ['hello','hi',1,32,4,6,7,44,10,26]
 // sum(...a)
+
+
+
+
+
+function sum(fname,lname, ...nums){
+
+    sum = 0;
+    for(i in nums){
+        sum += nums[i];
+    }
+    console.log(`${fname} ${lname}`)
+    console.log(sum)
+}
+ let a = [1,32,4,6,7,44,10,26]
+sum('hello', 'hi',...a)
