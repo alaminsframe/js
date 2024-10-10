@@ -13,3 +13,11 @@
 // console.log(fullName)
 // console.log(age)
 // console.log(city)
+
+
+let arr = ['hello', , 'dhaka']
+let [fullName, age=25, city]= arr;
+
+console.log(fullName)
+console.log(age)
+console.log(city)
