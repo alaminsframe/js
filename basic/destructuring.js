@@ -1,3 +1,6 @@
+
+//##############  array  #############
+
 // let arr = ['hello', 20]
 
 // let [name, age] = arr;
@@ -15,9 +18,31 @@
 // console.log(city)
 
 
-let arr = ['hello', , 'dhaka']
-let [fullName, age=25, city]= arr;
+// let arr = ['hello', , 'dhaka']
+// let [fullName, age=25, city]= arr;
 
-console.log(fullName)
-console.log(age)
-console.log(city)
+// console.log(fullName)
+// console.log(age)
+// console.log(city)
+
+
+//##############  object  #############
+
+// let obj = {
+//     name: 'hello',
+//     age: 20,
+// }
+
+// let {name, age} = obj;
+
+// console.log(name)
+// console.log(age)
+
+let obj = {
+    name: 'hello',
+    age: 20,
+}
+
+let {name: fullname, age} = obj;
+
+console.log(fullname)
