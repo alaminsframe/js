@@ -13,15 +13,32 @@
 
 //##### constructor #####
 
-class student{
-    constructor(){
-        console.log('this is constructor function')
-    }
+// class student{
+//     constructor(){
+//         console.log('this is constructor function')
+//     }
 
-    hello(){
-        console.log('this is normal function')
-    }
-}
+//     hello(){
+//         console.log('this is normal function')
+//     }
+// }
 
-let std = new student(); //constructor function auto load first
+// let std = new student(); //constructor function auto load first
 
+
+
+// class student{
+//     constructor(){
+//         let name;
+//         console.log('this is constructor function')
+//     }
+
+//     hello(){
+//         console.log(`hello ${this.name}`)
+//     }
+// }
+
+// let std = new student();
+
+// std.name = 'Rocky'
+// std.hello()
