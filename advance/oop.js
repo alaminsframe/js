@@ -65,21 +65,49 @@
 
 
 
+// class student{
+//     constructor(name, age){
+//         this.name = name;
+//         this.age = age;
+//         //console.log('this is constructor function')
+//     }
+
+//     hello(){
+//         console.log(`hello ${this.name} your age is ${this.age}`)
+//     }
+// }
+
+// let std1 = new student('Rocky',20);
+// let std2 = new student('Socky',21);
+// let std3 = new student('Tocky',22);
+// std1.hello()
+// std2.hello()
+// std3.hello()
+
+
+
+
+
+//########  static method #####
+
 class student{
-    constructor(name, age){
+    constructor(name){
         this.name = name;
-        this.age = age;
-        //console.log('this is constructor function')
+        console.log('this is constructor function')
     }
 
     hello(){
-        console.log(`hello ${this.name} your age is ${this.age}`)
+        console.log(`hello ${this.name}`)
+    }
+
+    static staticMethod(){
+        console.log('this is static method')
     }
 }
 
-let std1 = new student('Rocky',20);
-let std2 = new student('Socky',21);
-let std3 = new student('Tocky',22);
-std1.hello()
-std2.hello()
-std3.hello()
+let std = new student('Rocky');
+
+student.staticMethod()
+
+
+
