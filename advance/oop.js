@@ -42,3 +42,22 @@
 
 // std.name = 'Rocky'
 // std.hello()
+
+
+
+
+
+class student{
+    constructor(name){
+        this.name = name;
+        console.log('this is constructor function')
+    }
+
+    hello(){
+        console.log(`hello ${this.name}`)
+    }
+}
+
+let std = new student('Rocky');
+
+std.hello()
