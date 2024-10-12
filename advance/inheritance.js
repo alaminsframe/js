@@ -4,4 +4,8 @@ class students{
     }
 
 }
-let obj = new students();
+
+class goodStd extends students{
+
+}
+let obj = new goodStd();
