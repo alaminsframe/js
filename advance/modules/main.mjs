@@ -1,5 +1,14 @@
 
-import {msg, hello, test} from "./library.mjs";
-console.log(msg)
-hello('Rocky')
-new test();
+//import {msg, hello as greating, test} from "./library.mjs";
+
+// console.log(msg)
+// greating('Rocky')
+// new test();
+
+
+
+
+import * as imp from "./library.mjs"
+console.log(imp.msg)
+imp.hello('Rocky')
+new imp.test();

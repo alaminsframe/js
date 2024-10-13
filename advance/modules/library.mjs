@@ -1,10 +1,12 @@
-export let msg = 'hello from library';
+export {msg, hello, test}
 
-export function hello(name){
+let msg = 'hello from library';
+
+function hello(name){
     console.log(`Hello ${name}`)
 }
 
-export class test{
+class test{
     constructor(){
         console.log('Hello Everyone')
     }
