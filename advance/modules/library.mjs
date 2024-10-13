@@ -1,0 +1,1 @@
+export let msg = 'hello from library';
