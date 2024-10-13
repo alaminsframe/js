@@ -1,5 +1,5 @@
 
-import {msg} from "./library.mjs";
-import {hello} from "./library.mjs";
+import {msg, hello, test} from "./library.mjs";
 console.log(msg)
 hello('Rocky')
+new test();
