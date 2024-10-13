@@ -1,13 +1,20 @@
-export {msg, hello, test}
+// export {msg, hello, test}
 
-let msg = 'hello from library';
+// let msg = 'hello from library';
 
-function hello(name){
-    console.log(`Hello ${name}`)
-}
+// function hello(name){
+//     console.log(`Hello ${name}`)
+// }
 
-class test{
-    constructor(){
-        console.log('Hello Everyone')
-    }
+// class test{
+//     constructor(){
+//         console.log('Hello Everyone')
+//     }
+// }
+
+
+
+
+export default function(){
+    console.log('This is default function')
 }
