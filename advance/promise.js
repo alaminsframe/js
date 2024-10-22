@@ -61,20 +61,58 @@
 
 
 
+// function prom(com){
+//     return new Promise( (resolve, reject) => { 
+//         if(com){
+//             resolve("success")
+//         }else{
+//             reject("error")
+//         }
+//     })
+// }
+
+// console.log(prom(true));
 
 
+
+
+// function prom(com){
+//     return new Promise( (resolve, reject) => { 
+//         if(com){
+//             resolve("success")
+//         }else{
+//             reject("error")
+//         }
+//     })
+// }
+
+// let onSuccess = (msg)=>{
+//     console.log(msg);
+// };
+// let onReject= (msg)=>{
+//     console.log(msg);
+// }
+
+// prom(true).then(onSuccess).catch(onReject)
 
 function prom(com){
     return new Promise( (resolve, reject) => { 
-        if(com){
-            resolve("success")
-        }else{
-            reject("error")
-        }
+        console.log("please wait....");
+        setTimeout( () => {
+            if(com){
+                resolve("success")
+            }else{
+                reject("error")
+            }
+        },1000)
     })
 }
 
-console.log(prom(true));
+prom(true).then((msg)=>{ 
+    console.log(msg);
+}).catch((msg)=>{
+    console.log(msg);
+})
 
 
 
