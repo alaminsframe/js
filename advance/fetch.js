@@ -12,9 +12,16 @@
 
 
 
+// async function randomUser() {
+//     let apiUrl = await fetch(`https://randomuser.me/api`);
+//     let rawData = await apiUrl.json();
+//     console.log(rawData);
+// }
+// randomUser();
+
 async function randomUser() {
     let apiUrl = await fetch(`https://randomuser.me/api`);
     let rawData = await apiUrl.json();
-    console.log(rawData);
+    console.log(rawData.results[0].name);
 }
 randomUser();
